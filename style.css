@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: beige;
+    display: flex;
+    justify-content: center;
+}
+.container{
+    width: 500px;
+}
+.holder{
+    background-color: darkolivegreen;
+    padding: 50px 0;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    text-shadow: 0 0 5px black;
+    box-shadow: 0 0 5px black;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+.new-task{
+    margin-top: 30px;
+}
+.btn-add{
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    box-shadow: 0 0 5px black;
+    cursor: pointer;
+}
+.btn-add:hover{
+    background-color: beige;
+}
+input{
+    box-shadow: 0 0 5px black;
+    color: white;
+    background-color: transparent;
+    padding: 5px 10px;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+}
+.task{
+    margin-top: 10px;
+    padding: 5px 10px;
+    box-shadow: 0 0 5px black;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    margin-left: -40px;
+}
+.task:hover{
+    background-color: white;
+}
+.btn-remove{
+    padding: 20 20px;
+    border: none;
+    border-radius: 100px;
+    box-shadow: 0 0 5px black;
+    cursor: pointer;
+    color: white;
+    height: 30px;
+    width: 30px;
+    background-color: red;
+    margin-top: 10px;
+}
+.btn-remove:hover{
+    background-color: darkred;
+}
+.done{
+    background-color: green;
+}
